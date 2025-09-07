@@ -11,3 +11,12 @@ try {
 } catch (PDOException $e) {
     exit('DB Connection failed:' . $e->getMessage());
 }
+
+function e(string $v): string {
+    return htmlspecialchars($v, ENT_QUOTES, 'UTF-8');
+}
+
+function redirect(string $path = '/'): void {
+    header("Location: {$path}");
+    exit;
+}
