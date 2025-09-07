@@ -62,6 +62,10 @@ $rows = $stmt->fetchAll();
         <td><?= htmlspecialchars($r['dept']) ?></td>
         <td><?= htmlspecialchars($r['email']) ?></td>
         <td><?= htmlspecialchars($r['created_at']) ?></td>
+        <td>
+            <a href="/edit.php?id=<?= e($r['id']) ?>">編集</a>
+            <a href="/delete.php?id=<?= e($r['id'])?>" style="color:red">削除</a>
+        </td>
     </tr>
     <?php endforeach; ?>
 </table>
