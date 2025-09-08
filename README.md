@@ -68,7 +68,7 @@ php -S 127.0.0.1:8000 -t public
 
 ### 一覧
 
-<img src="docs/index.png" width="600">
+
 
 ### 編集
 
