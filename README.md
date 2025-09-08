@@ -1,3 +1,5 @@
+![PHP](https://img.shields.io/badge/PHP-8.x-777bb4)
+
 # PHP CRUD 社員管理アプリ
 
 シンプルな社員管理システム（Create / Read / Update / Delete）。  
@@ -83,3 +85,7 @@ php -S 127.0.0.1:8000 -t public
 - CSRF トークンによる POST 保護
 - 共通関数 e() による XSS 対策
 - Bootstrap で最小限の UI 整備
+
+## ライセンス
+
+このリポジトリは [MIT License](LICENSE) のもとで公開されています。
